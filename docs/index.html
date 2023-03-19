@@ -1,0 +1,158 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Witherbear">
+    <meta name="keywords" content="witherbear, vermilion, programming language">
+
+    <title>Vermilion Programming Language</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-python.min.js"></script>
+
+    <link rel="icon" href="favicon.ico">
+
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Agrandir, sans-serif;
+        font-size: 16px;
+        overflow-x: hidden;
+      }
+
+      a {
+        text-decoration-line: none;
+        color: #e23e3e;
+      }
+      .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        font-size: 15px;
+        z-index: 1;
+      }
+
+      .content {
+        position: relative;
+        top: 0;
+        left: 300px;
+        bottom: 0;
+        right: 0;
+        overflow-y: scroll;
+      }
+      nav {
+        margin-top: 20px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        margin: 10px 0;
+      }
+
+      h2 {
+        margin: 0;
+        color: #e23e3e;
+      }        
+
+      h1 {
+        margin: 0;
+        color: #e23e3e;
+      }        
+
+      .code-section {
+        margin-top: 100px;
+        padding: 20px 0;
+        background-color: #c9b283;
+      }
+
+      pre {
+        background-color: #c9b283;
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 15px;
+        border-radius: 6px;
+        width: 50%;
+      }
+
+      pre code {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        font-weight: bold;
+        color: #343434;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      Prism.highlightAll();
+    </script>
+
+    <div class="content">      
+      <img src="logo.png">
+      <p><strong>Vermilion</strong> (alternative red word) is a programming language made in the top of Haskell.</p> <br>
+
+      <h2 id="installing">Installing</h2>
+      <p>Currently only supported on Windows, you can use the Inno Setup made installer for installing on Windows.</p> <br>
+
+      <h2 id="overview">Overview</h2>
+
+      <pre><code>
+        fun main():
+          name = "John"
+          ? name == "John" : print("Hello {name}!")
+        end
+      </code></pre>
+      <br>
+
+      <h2 id="features">Features</h2>
+      <p>Vermilion also have features, like any other programming language.</p>
+
+      <h3 id="lunch">Lunch</h3>
+      <p>Vermilion have a build tool and a package manager, named <strong>Lunch</strong>.</p>
+      <p>It's come with Vermilion instalation, without installing anything.</p> <br>
+
+      <p>It's can be used like this:</p>
+      <pre><code>
+        lunch :command: :option:
+      </code></pre>
+      <br>
+
+      <p>Lunch can be used for building projects, creating projects, and install packages.</p>
+      <p>Also, Lunch have the Lunchfile, for setuping projects and packages.</p>
+    </div>
+
+    <div class="sidebar">
+      <nav>
+        <ul>
+          <li><img src="favicon.ico" width="200"></li>
+          <hr style="color: grey">
+          <li><a href="#">Home</a></li>
+          <li><a href="#install">Installing</a></li>
+          <li><a href="#features">Features</a></li>
+          <hr style="color: grey">
+          © 2023 Witherbear
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
