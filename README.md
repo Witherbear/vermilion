@@ -1,6 +1,6 @@
 # Vermilion
 ![Vermilion Logo](extras/VermilionLogoBG.png)
-Vermilion (alternative red word) is a programming language made in the top of Haskell.
+Feathered Haskell.
 More info on [website](https://witherbear.github.io/vermilion)
 <!--
 # Building

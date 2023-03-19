@@ -1,0 +1,18 @@
+require("xml")
+
+class Main:
+	fun main():
+		parseXml()
+	end
+
+	fun parseXml():
+		content = xml.parseXML("""
+			<person>
+				<name>John Doe</name>
+			</person>
+		""")
+
+		print(content)
+		# will output person: name: John Doe
+	end
+end

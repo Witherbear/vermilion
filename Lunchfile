@@ -1,0 +1,5 @@
+project = "vermilion"
+description = "Vermilion: Feathered Haskell"
+version = "1.0.1"
+
+packages = []

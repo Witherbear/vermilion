@@ -6,8 +6,8 @@ cabal-version: 1.12
 
 name:           vermilion
 version:        1.0.0
-description:    See README <https://github.com/Witherbear/vermilion>
-homepage:       https://github.com/Witherbear/vermilion#readme
+description:    Vermilion: Feathered Haskell
+homepage:       https://witherbear.github.io/vermilion
 bug-reports:    https://github.com/Witherbear/vermilion/issues
 author:         Witherbear
 maintainer:     witherbear@greenbear.ml

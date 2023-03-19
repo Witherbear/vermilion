@@ -30,4 +30,4 @@ main = do
     Install -> "Installing package ..."
     Uninstall -> "Uninstalling package ..."
     Build -> "Building project ..."
-    Info -> "Lunch program version 1.0.0")
+    Info -> "Vermilion Lunch version 1.0.0 unreleased")
