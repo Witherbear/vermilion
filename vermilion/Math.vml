@@ -1,0 +1,9 @@
+module vermilion
+
+class math:
+    % pi = 3.141592653589793
+
+    fun sqrt(number):
+        return number ** 0.5
+    end
+end

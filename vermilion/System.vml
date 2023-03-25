@@ -1,0 +1,7 @@
+module vermilion
+
+class Language:
+    fun println(content):
+        print(content + "\n")
+    end
+end
